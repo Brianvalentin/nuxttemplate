@@ -1,15 +1,114 @@
 <template>
-	<div data-aos="fade-up-right" data-aos-duration="1000">
+	<div data-aos="slide-top" data-aos-duration="1000">
 		<v-container >
-			<h1 class="text-h3 text-center py-2">Gallery</h1>
-			<v-row wrap>
-				<v-col id="image" cols="6" md="3" v-for=" i in 8" :key="i">
-					<v-img src="/profile.jpg">
-				</v-img>
-				<div class="text-center">Caption Content</div>
-			</v-col>
-		</v-row>
-	</v-container>
+			<h1 class="text-h3 text-center">Gallery</h1>
+			<v-row>
+				<v-col cols="12" md="3">
+					<v-hover>
+						<template v-slot:default="{ hover }">
+							<v-card class="mx-auto" >
+							<v-img src="/data/kanchi_kamakshi_temple.jpg" aspect-ratio="1.5"></v-img>
+
+							<v-card-text>
+								<h2 class="title primary--text text-center">
+									Temple Photos
+								</h2>
+							</v-card-text>
+							<v-fade-transition>
+								<v-overlay
+								v-if="hover"
+								absolute
+								color="#036358"
+								>
+								<v-btn text link to="/gallery" >View More</v-btn>
+							</v-overlay>
+						</v-fade-transition>
+					</v-card>
+				</template>
+			</v-hover>
+		</v-col>
+
+					<v-col cols="12" md="3">
+					<v-hover>
+						<template v-slot:default="{ hover }">
+							<v-card class="mx-auto" >
+							<v-img src="/data/festival.jpg" aspect-ratio="1.5"></v-img>
+
+							<v-card-text>
+								<h2 class="title primary--text text-center">
+										Festival Photos
+								</h2>
+							</v-card-text>
+							<v-fade-transition>
+								<v-overlay
+								v-if="hover"
+								absolute
+								color="#036358"
+								>
+								<v-btn text link to="/gallery">View More</v-btn>
+							</v-overlay>
+						</v-fade-transition>
+					</v-card>
+				</template>
+			</v-hover>
+		</v-col>
+
+					<v-col cols="12" md="3">
+					<v-hover>
+						<template v-slot:default="{ hover }">
+							<v-card class="mx-auto" >
+							<v-img src="/data/pooja.jpg" aspect-ratio="1.5"></v-img>
+
+							<v-card-text>
+								<h2 class="title primary--text text-center">
+									Pooja Photos
+								</h2>
+							</v-card-text>
+							<v-fade-transition>
+								<v-overlay
+								v-if="hover"
+								absolute
+								color="#036358"
+								>
+								<v-btn link text to="gallery">View More</v-btn>
+							</v-overlay>
+						</v-fade-transition>
+					</v-card>
+				</template>
+			</v-hover>
+		</v-col>
+
+					<v-col cols="12" md="3">
+					<v-hover>
+						<template v-slot:default="{ hover }">
+							<v-card class="mx-auto" >
+							<v-img src="/data/goddes.jpg" aspect-ratio="1.5"></v-img>
+
+							<v-card-text>
+								<h2 class="title primary--text text-center">
+									Goddes Photos
+								</h2>
+							</v-card-text>
+							<v-fade-transition>
+								<v-overlay
+								v-if="hover"
+								absolute
+								color="#036358"
+								>
+								<v-btn link text to="gallery">View More</v-btn>
+							</v-overlay>
+						</v-fade-transition>
+					</v-card>
+				</template>
+			</v-hover>
+		</v-col>
+
+
+
+
+	</v-row>
+
+</v-container>
 </div>
 </template>
 
@@ -24,21 +123,4 @@
 </script>
 
 <style lang="css" scoped>
-/*#overlay{
-	color: white;
-	position: absolute;
-	bottom:10px;
-	display: none;
-}
-#overlay:hover{
-
-	display: block;
-}*/
-#image{
-	padding: 10px
-}
-#image:hover{
-	transition: 300ms;
-	padding: 5px;
-}
 </style>

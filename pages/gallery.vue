@@ -1,39 +1,71 @@
 <template>
+	<div>
 	<div data-aos="slide-up" data-aos-duration="1000">
 		<v-container class="pa-3" >
-			<h1 class="text--h2 text-center">Section 1</h1>
-			<v-row wrap  >
-
-				<v-col  cols="6" md="3" v-for="(i,index) in 8" :key="index" >
-					<v-img lazy-src src="/profile.jpg"></v-img>
+			<h1 class="text--h3 text-center">Temple Photos</h1>
+			<v-row wrap>
+				<v-col  cols="6" md="3">
+					<v-img src="/data/kanchi_kamakshi_temple.jpg"></v-img>
+				</v-col>
+				<v-col  cols="6" md="3">
+					<v-img src="/data/kanchipuram.jpg"></v-img>
+				</v-col>
+				<v-col  cols="6" md="3">
+					<v-img src="/data/kanchi_kamakshi_temple.jpg"></v-img>
+				</v-col>
+				<v-col  cols="6" md="3">
+					<v-img src="/data/kanchipuram.jpg"></v-img>
 				</v-col>
 			</v-row>
 		</v-container>
 
 		<v-container class="pa-3">
-			<h1 class="text--h2 text-center">Section 2</h1>
+			<h1 class="text--h2 text-center" >Festival Photos</h1>
 			<v-row wrap>
 
-				<v-col cols="6" md="3" v-for="(i,index) in 8" :key="index" >
-					<v-img lazy-src src="profile.jpg"></v-img>
+				<v-col cols="6" md="3" >
+					<v-img lazy-src src="/data/festival.jpg" aspect-ratio="1.5"></v-img>
+				</v-col>
+				<v-col cols="6" md="3" >
+					<v-img lazy-src src="/data/pooja.jpg"></v-img>
+				</v-col>
+				<v-col cols="6" md="3" >
+					<v-img lazy-src src="/data/festival2.jpg"></v-img>
+				</v-col>
+				<v-col cols="6" md="3" >
+					<v-img lazy-src src="/data/festival3.jpg"></v-img>
 				</v-col>
 			</v-row>
 		</v-container>
 
 		<v-container class="pa-3">
-			<h1 class="text--h2 text-center">Section 3</h1>
+			<h1 class="text--h2 text-center">Goddes Photos</h1>
 			<v-row wrap>
 
-				<v-col cols="6" md="3" v-for="(i,index) in 8" :key="index" >
-					<v-img lazy-src src="profile.jpg"></v-img>
+				<v-col cols="6" md="3">
+					<v-img lazy-src src="profile.jpg"  aspect-ratio="1.5" ></v-img>
+				</v-col>
+
+				<v-col cols="6" md="3">
+					<v-img lazy-src src="/data/goddes.jpg" aspect-ratio="1.5" ></v-img>
+				</v-col>
+
+				<v-col cols="6" md="3">
+					<v-img lazy-src src="/data/kamakshi.jpg" aspect-ratio="1.5" ></v-img>
+				</v-col>
+
+				<v-col cols="6" md="3">
+					<v-img lazy-src src="/data/goddes1.jpg" aspect-ratio="1.5"></v-img>
 				</v-col>
 			</v-row>
 		</v-container>
+			</div>
 	</div>
 </template>
 
 <script type="text/javascript">
 	export default{
+		layout:"page",
 		data(){
 			return{
 				section1:[

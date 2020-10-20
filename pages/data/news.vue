@@ -1,4 +1,5 @@
 <template>
+	<div>
 	<div data-aos="fade-down" data-aos-duration="700">
 		<div data-aos="fade-in" data-aos-duration="700">
 			<v-container id="section1">
@@ -126,14 +127,16 @@
 				
 			</v-container>
 		</div>
+		</div>
 	</div>
 </template>
 
 <script type="text/javascript">
 	export default{
+			layout:"page",
 		data(){
 			return{
-				content:"The Goddess Kamakshi is in a sitting posture in the temple. This posture is called the Padmasana posture. The Padmasana posture is said to resemble a lotus. In the Yogic practice this resembles the form of meditation. The Goddess holds a Sugarcane bow on her left upper arm and Lotus, Parrot in her right upper arm. The Goddess also has divine chakras called Pasa and Angusa in her arms.The Goddess also has a Chandraperai (a shape of moon like structure) in her forehead.	"
+				content:"Content Will Be Updated Here"
 			}
 		}
 	}

@@ -1,6 +1,6 @@
 <template>
-	<div data-aos="fade-up" data-aos-duration="700">
-		<v-row class="pa-6">
+	<div>
+		<v-row class="pa-6 pt-0">
 			<v-col cols="12" md="4" v-for="i in content" :key="i.id">
 				<v-card  class="mx-auto elevation-4" tile >
 					<v-img
@@ -8,7 +8,7 @@
 					aspect-ratio=1.77
 					></v-img>
 
-					<v-card-title>
+					<v-card-title class="text-center">
 						{{i.title}}
 					</v-card-title>
 					<p class="text-center px-3">
@@ -17,11 +17,11 @@
 
 
 					<v-card-actions>
-						<v-btn color="blue lighten-2" text block >
+						<v-btn link :to="i.location" color="blue lighten-2" text block >
 						Explore
 					</v-btn>
 
-					<v-spacer></v-spacer>
+					
 
 				</v-card-actions>
 			</v-card>
@@ -41,21 +41,24 @@
 				{	
 					"id":1,
 					"title":"About Kanchipuram - City Of Temples",
-					"img":"/profile.jpg",
-					"content":"Kanchipuram is one of the seven sacred cities in India. History proclaims that Kanchipuram was ruled by the Pallava Kings..."
+					"img":"/data/kanchipuram.jpg",
+					"content":"Kanchipuram is one of the seven sacred cities in India. History proclaims that Kanchipuram was ruled by the Pallava Kings...",
+					"location":"/about/kanchipuram"
 				},
 				{
 					"id":2,
 					"title":"About Goddess kamakshi",
 					"img":"/profile.jpg",
-					"content":"The Goddess Kamakshi is in a sitting posture in the temple. This posture is called the Padmasana posture. The Padmasana ..."
+					"content":"The Goddess Kamakshi is in a sitting posture in the temple. This posture is called the Padmasana posture. The Padmasana ...",
+					"location":"/about/goddess_kamakshi"
 				},
 				{
 					"id":3,
 					"title":"About Kanchi Kamakshi Temple",
-					"img":"/profile.jpg",
-					"content":"Kanchi Kamakshi temple is situated at about 5 acres of land and has four entrances. The main entrance of the temple..."
-				}
+					"img":"/data/kanchi_kamakshi_temple.jpg",
+					"content":"Kanchi Kamakshi temple is situated at about 5 acres of land and has four entrances. The main entrance of the temple...",
+					"location":"/about/temple"
+				},
 				]
 			}
 		}

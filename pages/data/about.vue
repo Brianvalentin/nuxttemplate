@@ -1,5 +1,8 @@
 <template>
-	<div data-aos="fade-down" data-aos-duration="700">
+	<div>
+		<navbar/>
+	
+	<div data-aos="fade-down" data-aos-duration="700" >
 		<div data-aos="fade-in" data-aos-duration="700">
 			<v-container id="section1">
 				<h1 class="text-h3 text-center pa-3">About Goddess Kamakshi</h1>
@@ -147,6 +150,7 @@
 		</div>
 
 
+	</div>
 	</div>
 </template>
 

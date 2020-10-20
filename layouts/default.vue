@@ -1,7 +1,6 @@
 <template>
   <v-app id="root">
     <v-main>
-     <navbar/>
      <nuxt/>
    </v-main>
  </v-app> 
@@ -20,7 +19,4 @@
 </script>
 
 <style scoped>
-*{
-  overflow-x: hidden;
-}
 </style>

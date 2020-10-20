@@ -1,14 +1,16 @@
 <template>
-	<div data-aos="slide-up" data-aos-duration="1000">
+	<div>
 		<v-container >
+			<h1 class="text-h4 pa-3 text-center">Upcoming Events</h1>
 			<v-row>
+
 				<v-col cols="12" md="4" v-for="(item,index) in contents" :key="index">
 					<v-card elevation="15">
 						<v-card-title class="pink--text">{{item.date}}</v-card-title>
 						<v-card-title class="text-h5">{{item.title}}</v-card-title>
 						<v-card-text>{{item.content}}</v-card-text>
 						<v-card-actions>
-							<v-btn tile text block>Learn More</v-btn>
+							<v-btn link to="/data/online#section1" tile text block>Know More</v-btn>
 						</v-card-actions>
 					</v-card>
 				</v-col>
@@ -23,19 +25,19 @@
 			return{
 				contents:[
 				{
-					"date":"11-10-2020",
-					"title":"Pownarmi pooja",
-					"content":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscip"
+					"date":"Navarathri Function",
+					"title":"Oct 7-Day 1-9",
+					"content":"The Nine days of festivities to welcome Goddess Durga will begin from October 17th and end on October 26th with Vijayadashami."
 				},
 				{
-					"date":"11-10-2020",
-					"title":"Pownarmi pooja",
-					"content":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscip"
+					"date":"Saraswathi pooja",
+					"title":"25 October",
+					"content":"Vasant Panchami is the festival dedicated to goddess Saraswati who is their goddess of knowledge, language, music and all arts."
 				},
 				{
-					"date":"11-10-2020",
-					"title":"Pownarmi pooja",
-					"content":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscip"
+					"date":"Vijayadashami",
+					"title":" 25 October",
+					"content":"Vijayadashami also known as Dussehra, Dasara or Dashain is a major Hindu festival celebrated at the end of Navaratri every year."
 				}
 				]
 			}
