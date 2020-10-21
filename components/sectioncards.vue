@@ -5,7 +5,7 @@
 				<v-card  class="mx-auto elevation-4" tile >
 					<v-img
 					:src="i.img"
-					aspect-ratio=1.77
+					aspect-ratio=1.5
 					></v-img>
 
 					<v-card-title class="text-center">
@@ -17,7 +17,7 @@
 
 
 					<v-card-actions>
-						<v-btn link :to="i.location" color="blue lighten-2" text block >
+						<v-btn link :to="i.location" color="green darken-2" text block >
 						Explore
 					</v-btn>
 
@@ -41,13 +41,13 @@
 				{	
 					"id":1,
 					"title":"About Kanchipuram - City Of Temples",
-					"img":"/data/kanchipuram.jpg",
+					"img":"/data/templetower2.jpg",
 					"content":"Kanchipuram is one of the seven sacred cities in India. History proclaims that Kanchipuram was ruled by the Pallava Kings...",
 					"location":"/about/kanchipuram"
 				},
 				{
 					"id":2,
-					"title":"About Goddess kamakshi",
+					"title":"About Goddess Kamakshi",
 					"img":"/profile.jpg",
 					"content":"The Goddess Kamakshi is in a sitting posture in the temple. This posture is called the Padmasana posture. The Padmasana ...",
 					"location":"/about/goddess_kamakshi"
@@ -55,7 +55,7 @@
 				{
 					"id":3,
 					"title":"About Kanchi Kamakshi Temple",
-					"img":"/data/kanchi_kamakshi_temple.jpg",
+					"img":"/data/templetower.jpg",
 					"content":"Kanchi Kamakshi temple is situated at about 5 acres of land and has four entrances. The main entrance of the temple...",
 					"location":"/about/temple"
 				},

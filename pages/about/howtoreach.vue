@@ -3,7 +3,7 @@
 		<v-container>
 			<v-row dense>
 				<v-col cols="12" color="blue">
-					<h1 class="text-h3 text-center" color="blue">How to Reach</h1>
+					<h1 class="text-h3 text-center">How to Reach</h1>
 				</v-col>
 				<v-col cols="12">
 					Kamatchi Amman Temple is located in Kanchipuram. It is well connected to the rest of the city through various modes of transport.

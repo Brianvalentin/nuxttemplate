@@ -86,7 +86,7 @@
 
 							<v-card-text>
 								<h2 class="title primary--text text-center">
-									Goddes Photos
+									Goddess Photos
 								</h2>
 							</v-card-text>
 							<v-fade-transition>

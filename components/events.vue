@@ -10,7 +10,7 @@
 						<v-card-title class="text-h5">{{item.title}}</v-card-title>
 						<v-card-text>{{item.content}}</v-card-text>
 						<v-card-actions>
-							<v-btn link to="/data/online#section1" tile text block>Know More</v-btn>
+							<v-btn link :to="item.location" tile text block>Know More</v-btn>
 						</v-card-actions>
 					</v-card>
 				</v-col>
@@ -27,17 +27,20 @@
 				{
 					"date":"Navarathri Function",
 					"title":"Oct 7-Day 1-9",
-					"content":"The Nine days of festivities to welcome Goddess Durga will begin from October 17th and end on October 26th with Vijayadashami."
+					"content":"The Nine days of festivities to welcome Goddess Durga will begin from October 17th and end on October 26th with Vijayadashami.",
+					"location":"/about/events#section1"
 				},
 				{
 					"date":"Saraswathi pooja",
 					"title":"25 October",
-					"content":"Vasant Panchami is the festival dedicated to goddess Saraswati who is their goddess of knowledge, language, music and all arts."
+					"content":"Vasant Panchami is the festival dedicated to goddess Saraswati who is their goddess of knowledge, language, music and all arts.",
+					"location":"/about/events#section2"
 				},
 				{
 					"date":"Vijayadashami",
 					"title":" 25 October",
-					"content":"Vijayadashami also known as Dussehra, Dasara or Dashain is a major Hindu festival celebrated at the end of Navaratri every year."
+					"content":"Vijayadashami also known as Dussehra, Dasara or Dashain is a major Hindu festival celebrated at the end of Navaratri every year.",
+					"location":"/about/events#section3"
 				}
 				]
 			}
