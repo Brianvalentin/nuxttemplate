@@ -5,7 +5,7 @@
 		hide-delimiter-background
 		hide-delimiters	
 		show-arrows-on-hover
-		height="400"
+		height="440"
 		>
 		<v-carousel-item
 		v-for="(slide, i) in slides"
@@ -32,7 +32,7 @@
 					'src':'/indeximg/banner1.jpeg'
 				},
 				{
-					'src':'/indeximg/banner2.jpg'
+					'src':'/indeximg/banner33.jpg'
 				},
 				{
 					'src':'/indeximg/banner3.jpg'

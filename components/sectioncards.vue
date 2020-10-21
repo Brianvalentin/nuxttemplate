@@ -48,7 +48,7 @@
 				{
 					"id":2,
 					"title":"About Goddess Kamakshi",
-					"img":"/profile.jpg",
+					"img":"/fsimg/n3.jpeg",
 					"content":"The Goddess Kamakshi is in a sitting posture in the temple. This posture is called the Padmasana posture. The Padmasana ...",
 					"location":"/about/goddess_kamakshi"
 				},

@@ -3,8 +3,8 @@
 		<v-container class="pa-3">
 			<v-row>
 				<v-col cols="12">
-					<h1 class="text-h3 text-center pa-3">About Goddess Kamakshis</h1>
-					<v-img width="500" class="mx-auto" src="/data/kamakshi.jpg"></v-img>
+					<h1 class="text-h3 text-center pa-3">About Goddess Kamakshi</h1>
+					<v-img width="500" class="mx-auto" src="/fsimg/n3.jpeg"></v-img>
 					<p class="text-h6 pa-6">
 						The Goddess Kamakshi is in a sitting posture in the temple. This posture is called the Padmasana posture. The Padmasana posture is said to resemble a lotus. In the Yogic practice this resembles the form of meditation. The Goddess holds a Sugarcane bow on her left upper arm and Lotus, Parrot in her right upper arm. The Goddess also has divine chakras called Pasa and Angusa in her arms.
 						<br> <br>
