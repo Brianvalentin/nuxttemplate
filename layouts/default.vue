@@ -19,4 +19,7 @@
 </script>
 
 <style scoped>
+*{
+  overflow-x: hidden;
+}
 </style>

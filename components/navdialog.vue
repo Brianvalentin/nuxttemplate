@@ -7,9 +7,12 @@
     transition="dialog-bottom-transition"
     >
     <template v-slot:activator="{ on, attrs }">
-      <v-btn tile  color="blue" block  v-bind="attrs" v-on="on" class="white--text"
+      <v-btn tile large color="indigo" block  v-bind="attrs" v-on="on" class="white--text"
       >
-      Navigation
+      <v-icon left>
+        mdi-menu
+      </v-icon>
+      Go to
     </v-btn>
   </template>
   <v-card>
