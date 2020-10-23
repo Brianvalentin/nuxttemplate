@@ -28,19 +28,19 @@
 					"date":"Navarathri Function",
 					"title":"Oct 7-Day 1-9",
 					"content":"The Nine days of festivities to welcome Goddess Durga will begin from October 17th and end on October 26th with Vijayadashami.",
-					"location":"/about/events#section1"
+					"location":"about/events/navrathri"
 				},
 				{
 					"date":"Saraswathi pooja",
 					"title":"25 October",
 					"content":"Vasant Panchami is the festival dedicated to goddess Saraswati who is their goddess of knowledge, language, music and all arts.",
-					"location":"/about/events#section2"
+					"location":"/about/futureevents#section2"
 				},
 				{
 					"date":"Vijayadashami",
 					"title":" 25 October",
 					"content":"Vijayadashami also known as Dussehra, Dasara or Dashain is a major Hindu festival celebrated at the end of Navaratri every year.",
-					"location":"/about/events#section3"
+					"location":"/about/futureevents#section3"
 				}
 				]
 			}

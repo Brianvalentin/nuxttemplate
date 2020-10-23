@@ -6,7 +6,8 @@
 					<h1 class="text-h4 text-center pa-3">Brahmasri Neelakkal C.N.Ramachandra Sastrigal in the service Sri Kamakshi Ammal</h1>
 					<v-row>
 						<v-col cols="12" md="6">
-							<v-img class="mx-auto" width="400px" src="/data/ramachandra.jpg"></v-img>
+							<!-- <v-img class="mx-auto" width="400px" src="/data/ramachandra.jpg"></v-img> -->
+							<v-img class="mx-auto" width="400px" src="/data/br1.jpeg"></v-img>
 						</v-col>
 						<v-col cols="12" md="6">
 							<p>

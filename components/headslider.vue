@@ -59,7 +59,7 @@
 				},
 				
 				{
-					'src':'/indeximg/banner3.jpg'
+					'src':'/indeximg/banner2s.jpeg'
 				},
 				],
 				slides2:[
