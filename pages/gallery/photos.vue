@@ -66,7 +66,7 @@
 			<v-row wrap>
 
 				<v-col cols="6" md="3">
-					<v-img lazy-src src="profile.jpg"  aspect-ratio="1.5" ></v-img>
+					<v-img lazy-src src="/fsimg/n7.jpeg"  aspect-ratio="1.5" ></v-img>
 				</v-col>
 
 				<v-col cols="6" md="3">

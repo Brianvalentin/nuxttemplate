@@ -115,16 +115,19 @@
 				<v-menu offset-y open-on-hover>
 					<template v-slot:activator="{ on, attrs }">
 						<v-btn v-bind="attrs"v-on="on">
-							Photo Gallery
+							Gallery
 						</v-btn>
 					</template>
 					<v-list>
-						<v-list-item
-						v-for="(item, index) in ['Temple Photos','Festival Photos']"
-						:key="item"
-						>
-						<v-btn text block link to="/gallery"><v-list-item-title>{{ item }}</v-list-item-title></v-btn>
-					</v-list-item>
+						<v-list-item>
+							<v-list-item-title><v-list-item link to="/gallery/photos#section1">Temple Photos</v-list-item></v-list-item-title>
+						</v-list-item>
+						<v-list-item>
+							<v-list-item-title><v-list-item link to="/gallery/photos#section2">Festival Photos</v-list-item></v-list-item-title>
+						</v-list-item>
+						<v-list-item>
+							<v-list-item-title><v-list-item link to="/gallery/videos">Videos Section</v-list-item></v-list-item-title>
+						</v-list-item>
 				</v-list>
 			</v-menu>
 

@@ -119,14 +119,18 @@
 <v-divider></v-divider>
 
 <v-list-item>
-    <v-list-item-title><strong><v-list-item link  @click="dialog = !dialog"to="/gallery">Photo Gallery</v-list-item></strong></v-list-item-title>
+    <v-list-item-title><strong><v-list-item link  @click="dialog = !dialog"to="/gallery/photos">Photo Gallery</v-list-item></strong></v-list-item-title>
   </v-list-item>
 
    <v-list-item>
-    <v-list-item-title><v-list-item  @click="dialog = !dialog"link to="/gallery">Temple Photos</v-list-item></v-list-item-title>
+    <v-list-item-title><v-list-item  @click="dialog = !dialog"link to="/gallery/photos#section2">Temple Photos</v-list-item></v-list-item-title>
   </v-list-item>
   <v-list-item>
-    <v-list-item-title><v-list-item @click="dialog = !dialog" link to="/gallery">Festival Photos</v-list-item></v-list-item-title>
+    <v-list-item-title><v-list-item @click="dialog = !dialog" link to="/gallery/photos#section2">Festival Photos</v-list-item></v-list-item-title>
+  </v-list-item>
+
+    <v-list-item>
+    <v-list-item-title><v-list-item @click="dialog = !dialog" link to="/gallery/videos">Videos Section</v-list-item></v-list-item-title>
   </v-list-item>
 
   <v-divider></v-divider>

@@ -21,7 +21,7 @@ export default {
   */
   head: {
     titleTemplate: '%s - ' + process.env.npm_package_name,
-    title: 'Sri Kanchi Kamakshi Amman',
+    title: 'Sri Kanchi Kamakshi Ambal Devasthanam',
     meta: [
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { charset: 'utf-8' },
