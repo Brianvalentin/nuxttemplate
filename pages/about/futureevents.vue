@@ -20,7 +20,7 @@
 				</v-col>
 				<v-col cols="12" md="6">
 					<h1 class="text-h3">Vijayadashami</h1>
-					<h2 class="text-h4 purple--text pt-6">25 Octobr</h2>
+					<h2 class="text-h4 purple--text pt-6">26 Octobr</h2>
 					<p class="pt-6">Vijayadashami also known as Dussehra, Dasara or Dashain is a major Hindu festival celebrated at the end of Navaratri every year.</p>
 				</v-col>
 			</v-row>

@@ -23,7 +23,7 @@
 							<v-list-item-title> <v-list-item link to="/data/about#section3">History</v-list-item></v-list-item-title>
 						</v-list-item> -->
 						<v-list-item>
-							<v-list-item-title> <v-list-item link to="/about/kanchipuram">About Kanchi</v-list-item></v-list-item-title>
+							<v-list-item-title> <v-list-item link to="/about/kanchipuram">About Kanchipuram</v-list-item></v-list-item-title>
 						</v-list-item>
 						<!-- <v-list-item>
 							<v-list-item-title> <v-list-item link to="/data/about#section5">Other Temple</v-list-item></v-list-item-title>

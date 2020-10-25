@@ -7,7 +7,7 @@
 					<v-row>
 						<v-col cols="12" md="6">
 							<!-- <v-img class="mx-auto" width="400px" src="/data/ramachandra.jpg"></v-img> -->
-							<v-img class="mx-auto" width="400px" src="/data/br1.jpeg"></v-img>
+							<v-img class="mx-auto" width="400px" src="/data/priest3.jpeg"></v-img>
 						</v-col>
 						<v-col cols="12" md="6">
 							<p>

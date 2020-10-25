@@ -31,7 +31,7 @@
 							<v-list>
 								<v-list-item link class="pa-1" to="/about/temple">About Temple</v-list-item>
 								<v-list-item link class="pa-1" to="/data/online/">Temple Schedule</v-list-item>
-								<v-list-item link class="pa-1" to="/data/online">Upcoming Events</v-list-item>
+								<v-list-item link class="pa-1" to="/about/futureevents">Upcoming Events</v-list-item>
 								<v-list-item link class="pa-1" to="/about/howtoreach">How to Reach</v-list-item>
 							</v-list>
 					</div>	

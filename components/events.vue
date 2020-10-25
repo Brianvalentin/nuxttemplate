@@ -38,7 +38,7 @@
 				},
 				{
 					"date":"Vijayadashami",
-					"title":" 25 October",
+					"title":" 26 October",
 					"content":"Vijayadashami also known as Dussehra, Dasara or Dashain is a major Hindu festival celebrated at the end of Navaratri every year.",
 					"location":"/about/futureevents#section3"
 				}
