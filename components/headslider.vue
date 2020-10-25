@@ -52,10 +52,10 @@
 			return{
 				slides:[
 				{
-					'src':'/indeximg/banner22.jpeg'
+					'src':'/indeximg/banner2a.jpg'
 				},
 				{
-					'src':'/indeximg/banner1.jpeg'
+					'src':'/indeximg/bannerwall1.jpg'
 				},
 				
 				{
@@ -64,10 +64,10 @@
 				],
 				slides2:[
 				{
-					'src':'/profile.jpg'
+					'src':'/data/br1.jpeg'
 				},
 				{
-					'src':'/indeximg/banner1.jpeg'
+					'src':'/indeximg/bannerwall1.jpg'
 				},
 				{
 					'src':'/indeximg/mbanner1.jpg'

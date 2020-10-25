@@ -5,11 +5,10 @@
 			<v-col cols="7" md="6" dense  >
 				<v-avatar class="mx-auto">
 					<img
-					src="logo.jpg"
-					alt="John"
+					src="/data/br1.jpeg"
 					>
 				</v-avatar>
-				<v-btn text>Sri Kamatchi Amman</v-btn>
+				<v-btn text>Sri Kanchi Kamakshi Ambal Devasthanam</v-btn>
 			</v-col>
 			<v-col cols="5" md="6"  dense justify="end" >
 				<div class="mx-auto text-center">

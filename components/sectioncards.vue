@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div >
 		<v-row class="pa-6 pt-0">
 			<v-col cols="12" md="4" v-for="i in content" :key="i.id">
 				<v-card  class="mx-auto elevation-4" tile >

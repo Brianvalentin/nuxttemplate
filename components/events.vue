@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div data-aos="fade-up" data-aos-duration="700">
 		<v-container >
 			<h1 class="text-h4 pa-3 text-center">Upcoming Events</h1>
 			<v-row>

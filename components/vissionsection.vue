@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div data-aos="fade-up" data-aos-duration="700">
 		<v-container>
 			<v-row class="pa-3" >
 				<v-col cols="12" md="5">
