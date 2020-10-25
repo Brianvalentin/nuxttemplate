@@ -8,7 +8,7 @@
 					src="/data/br1.jpeg"
 					>
 				</v-avatar>
-				<v-btn text>Sri Kanchi Kamakshi Ambal Devasthanam</v-btn>
+				<v-btn text>Sri Kanchi Kamakshi Ambal</v-btn>
 			</v-col>
 			<v-col cols="5" md="6"  dense justify="end" >
 				<div class="mx-auto text-center">
