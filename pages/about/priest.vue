@@ -53,6 +53,10 @@
 
 <script>
 	export default{
-		layout:"page"
+		layout:"page",
+		mounted(){
+			let audio = document.getElementsByTagName('audio')
+			audio[0].play()
+		}
 	}
 </script>

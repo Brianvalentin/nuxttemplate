@@ -27,7 +27,9 @@
 					</v-col>
 					<v-col cols="12" md="6">
 						<iframe width="100%" height="300px"  src="https://www.youtube.com/embed/fc67n1wVG04" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+					</v-col>
+					<v-col cols="12" md="6">
+						<iframe width="100%" height="300px" src="https://www.youtube.com/embed/CUodtatvylc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</v-col>
 				</v-row>
 			</v-container>
@@ -41,6 +43,10 @@
 		data(){
 			return{
 			}
+		},
+		mounted(){
+			let audio = document.getElementsByTagName('audio')
+			audio[0].play()
 		}
 	}
 </script>

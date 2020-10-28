@@ -62,7 +62,7 @@
 		</v-container>
 
 		<v-container class="pa-3">
-			<h1 class="text--h2 text-center">Goddes Photos</h1>
+			<h1 class="text--h2 text-center">Goddess Photos</h1>
 			<v-row wrap>
 
 				<v-col cols="6" md="3">
@@ -110,6 +110,10 @@
 				},
 				]
 			}
+		},
+		mounted(){
+			let audio = document.getElementsByTagName('audio')
+			audio[0].play()
 		}
 	}
 </script>

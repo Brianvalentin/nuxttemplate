@@ -15,6 +15,9 @@ export default {
   ** See https://nuxtjs.org/api/configuration-target
   */
   target: 'static',
+  // router: {
+  //   base: '/prototype/'
+  // },
   /*
   ** Headers of the page
   ** See https://nuxtjs.org/api/configuration-head
@@ -91,6 +94,17 @@ export default {
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/
   */
+    
   build: {
-  }
+    extend (config, ctx) {
+      config.module.rules.push({
+        test: /\.(ogg|mp3|wav|mpe?g)$/i,
+        loader: 'file-loader',
+        options: {
+          audio: '@/assets/bell.mp3'
+        }
+      })
+    },
+  },
+  
 }

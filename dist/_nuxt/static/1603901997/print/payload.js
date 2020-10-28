@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/print", {data:[{}],fetch:[],mutations:void 0});

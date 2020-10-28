@@ -17,6 +17,10 @@
 			return{
 				content:"Content Will Be Updated here"
 			}
+		},
+		mounted(){
+			let audio = document.getElementsByTagName('audio')
+			audio[0].play()
 		}
 	}
 </script>

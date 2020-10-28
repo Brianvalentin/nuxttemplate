@@ -76,12 +76,6 @@
 							<v-list-item-title><v-list-item link to="/data/online#section3">Publication</v-list-item></v-list-item-title>
 						</v-list-item>
 						<v-list-item>
-							<v-list-item-title><v-list-item link to="/data/online#section4">Donation</v-list-item></v-list-item-title>
-						</v-list-item>
-						<v-list-item>
-							<v-list-item-title><v-list-item link to="/data/online#section5">Marriage Booking</v-list-item></v-list-item-title>
-						</v-list-item>
-						<v-list-item>
 							<v-list-item-title><v-list-item link to="/data/online#section6">Webinars</v-list-item></v-list-item-title>
 						</v-list-item>
 					</v-list>
@@ -94,11 +88,12 @@
 						</v-btn>
 					</template>
 					<v-list>
+						
 						<v-list-item>
-							<v-list-item-title><v-list-item link to="/data/news#section1">Print</v-list-item></v-list-item-title>
+							<v-list-item-title><v-list-item link to="/media">Media</v-list-item></v-list-item-title>
 						</v-list-item>
 						<v-list-item>
-							<v-list-item-title><v-list-item link to="/data/news#section2">Media</v-list-item></v-list-item-title>
+							<v-list-item-title><v-list-item link to="/print">Print</v-list-item></v-list-item-title>
 						</v-list-item>
 						<v-list-item>
 							<v-list-item-title><v-list-item link to="/data/news#section3">Blog</v-list-item></v-list-item-title>
@@ -139,7 +134,7 @@
 				</template>
 				<v-list>
 					<v-list-item>
-						<v-list-item-title> <v-list-item link to="/data/general#section1">Accomadation</v-list-item></v-list-item-title>
+						<v-list-item-title> <v-list-item link to="/data/general#section1">Accommodation</v-list-item></v-list-item-title>
 					</v-list-item>
 
 					<v-list-item>
@@ -159,7 +154,7 @@
 					</v-list-item>
 
 					<v-list-item>
-						<v-list-item-title> <v-list-item link to="/data/general#section6">Do's & Don't</v-list-item></v-list-item-title>
+						<v-list-item-title> <v-list-item link to="/general/rules">Do's & Don't</v-list-item></v-list-item-title>
 					</v-list-item>
 
 					<v-list-item>

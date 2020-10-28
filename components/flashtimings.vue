@@ -4,11 +4,11 @@
 			<v-col cols="12" md="12">
 				<marquee width="100%" direction="right">
 				<v-chip color="pink" label  class="mr-4" text-color="white">
-					<v-icon left>mdi-label</v-icon>Timings: Morning 5.30-11.30
+					<v-icon left>mdi-label</v-icon>Timings: Morning 8 AM-10.30 AM
 				</v-chip>
 
 				<v-chip color="green" label   class="mr-4" text-color="white">
-					<v-icon left>mdi-label</v-icon>Timings: Evening 4.30-8.30
+					<v-icon left>mdi-label</v-icon>Timings: Evening 5.30 PM-7.30 PM
 				</v-chip>
 
 <!-- 				<v-chip color="orange" class="mr-4" label text-color="white">

@@ -17,10 +17,8 @@
 				<v-col cols="12" md="4">
 					<p class="text-center text-h5">Follow Us On </p>
 					<div class="mx-auto text-center">
-						<v-btn fab dark color="indigo" class="mr-1"><v-icon>mdi-facebook</v-icon></v-btn>
-						<v-btn fab dark color="blue" class="mr-1"><v-icon>mdi-twitter</v-icon></v-btn>
-
-						<v-btn fab dark color="red" class="mr-1"><v-icon>mdi-youtube</v-icon></v-btn>
+						<v-btn  href="https://facebook.com/pages/category/Nonprofit-Organization/Kanchi-kamakshi-129544953755344/" fab dark color="indigo" class="mr-1"><v-icon>mdi-facebook</v-icon></v-btn>
+						<v-btn href="https:/www.youtube.com/user/syamasastri" fab dark color="red" class="mr-1"><v-icon>mdi-youtube</v-icon></v-btn>
 						<v-btn fab dark color="pink" class="mr-1"><v-icon>mdi-instagram</v-icon></v-btn>
 					</div>	
 				</v-col>

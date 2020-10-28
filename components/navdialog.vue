@@ -87,12 +87,6 @@
     <v-list-item-title><v-list-item  @click="dialog = !dialog"link to="/data/online#section3">Publication</v-list-item></v-list-item-title>
   </v-list-item>
   <v-list-item>
-    <v-list-item-title><v-list-item  @click="dialog = !dialog"link to="/data/online#section4">Donation</v-list-item></v-list-item-title>
-  </v-list-item>
-  <v-list-item>
-    <v-list-item-title><v-list-item @click="dialog = !dialog" link to="/data/online#section5">Marriage Booking</v-list-item></v-list-item-title>
-  </v-list-item>
-  <v-list-item>
     <v-list-item-title><v-list-item  @click="dialog = !dialog"link to="/data/online#section6">Webinars</v-list-item></v-list-item-title>
   </v-list-item>
 
@@ -100,11 +94,12 @@
   <v-list-item>
     <v-list-item-title><strong><v-list-item  @click="dialog = !dialog"link to="/data/news#section1">News & Events</v-list-item></strong></v-list-item-title>
   </v-list-item>
+
   <v-list-item>
-    <v-list-item-title><v-list-item  @click="dialog = !dialog"link to="/data/news#section1">Print</v-list-item></v-list-item-title>
+    <v-list-item-title><v-list-item  @click="dialog = !dialog"link to="/media">Media</v-list-item></v-list-item-title>
   </v-list-item>
-  <v-list-item>
-    <v-list-item-title><v-list-item  @click="dialog = !dialog"link to="/data/news#section2">Media</v-list-item></v-list-item-title>
+    <v-list-item>
+    <v-list-item-title><v-list-item  @click="dialog = !dialog"link to="/print">Print</v-list-item></v-list-item-title>
   </v-list-item>
   <v-list-item>
     <v-list-item-title><v-list-item  @click="dialog = !dialog"link to="/data/news#section3">Blog</v-list-item></v-list-item-title>
@@ -138,7 +133,7 @@
             <v-list-item-title> <strong> <v-list-item link  @click="dialog = !dialog"to="/data/general#section1">General Info</v-list-item></strong></v-list-item-title>
           </v-list-item>
   <v-list-item>
-            <v-list-item-title> <v-list-item link @click="dialog = !dialog" to="/data/general#section1">Accomadation</v-list-item></v-list-item-title>
+            <v-list-item-title> <v-list-item link @click="dialog = !dialog" to="/data/general#section1">Accommodation</v-list-item></v-list-item-title>
           </v-list-item>
 
           <v-list-item>
@@ -158,7 +153,7 @@
           </v-list-item>
 
           <v-list-item>
-            <v-list-item-title> <v-list-item link @click="dialog = !dialog" to="/data/general#section6">Do's & Don't</v-list-item></v-list-item-title>
+            <v-list-item-title> <v-list-item link @click="dialog = !dialog" to="/general/rules">Do's & Don't</v-list-item></v-list-item-title>
           </v-list-item>
 
           <v-list-item>

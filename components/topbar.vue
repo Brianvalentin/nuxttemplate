@@ -7,14 +7,15 @@
 					<img
 					src="/data/br1.jpeg"
 					>
+					
 				</v-avatar>
 				<v-btn text>Sri Kanchi Kamakshi Ambal</v-btn>
 			</v-col>
 			<v-col cols="5" md="6"  dense justify="end" >
 				<div class="mx-auto text-center">
-					<v-btn fab small dark color="indigo" class="mr-0"><v-icon>mdi-facebook</v-icon></v-btn>
-					<v-btn fab small dark color="blue" class="mr-0"><v-icon>mdi-twitter</v-icon></v-btn>
-					<v-btn fab small dark color="red" class="mr-0"><v-icon>mdi-youtube</v-icon></v-btn>
+					<v-btn fab small dark href="https://facebook.com/pages/category/Nonprofit-Organization/Kanchi-kamakshi-129544953755344/" color="indigo" class="mr-3"><v-icon>mdi-facebook</v-icon></v-btn>
+					
+					<v-btn fab small href="https://www.youtube.com/user/syamasastri" dark color="red" class="mr-0"><v-icon>mdi-youtube</v-icon></v-btn>
 				</div>
 			</v-col>	
 		</v-row>
@@ -23,8 +24,8 @@
 </template>
 
 <script type="text/javascript">
-
 	export default{
+
 	}
 </script>
 
