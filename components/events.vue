@@ -25,10 +25,10 @@
 			return{
 				contents:[
 				{
-					"date":"Navarathri Function",
-					"title":"Oct 7-Day 1-9",
-					"content":"The Nine days of festivities to welcome Goddess Durga will begin from October 17th and end on October 26th with Vijayadashami.",
-					"location":"about/events/navrathri"
+					"date":"Bilakasam",
+					"title":"Upcomming",
+					"content":"Kamakshi devi is said to have come to Kanchipuram Temple though this Bilakasam on Poora Nakshatram dayis located near Goddess Kamakshi..",
+					"location":"about/events/Bilakasam"
 				},
 				{
 					"date":"Saraswathi pooja",

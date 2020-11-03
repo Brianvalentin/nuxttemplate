@@ -22,9 +22,6 @@
 							4. Respect ancient customs and usages while at Kamakshi Temple.
 						</v-list-item>
 						<v-list-item>
-							5. Deposit your offerings only in the Hundi.
-						</v-list-item>
-						<v-list-item>
 							6. Follow the procedures of the temple and wait for your turn for the darshan of the Lord.
 						</v-list-item>
 					</v-list>

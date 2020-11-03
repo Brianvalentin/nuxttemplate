@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/about/events/Bilakasam", {data:[{}],fetch:[],mutations:void 0});

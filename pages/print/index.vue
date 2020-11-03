@@ -2,10 +2,12 @@
 	<div>
 		<v-container class="pa-3">
 			<h1 class="title--h4 text-center">Print</h1>
+
 			<v-row class="pa-3" wrap>
-				<v-col class="mx-auto" cols="12" md="8" height="100vh">
+				
+				<v-col class="mx-auto" cols="12" md="8">
 					<v-carousel height="auto" cycle hide-delimiter-background  delimiter-icon="mdi-minus">
-						<v-carousel-item >
+						<v-carousel-item  >
 							<v-img src="/print/1.jpeg"></v-img>
 						</v-carousel-item>
 						<v-carousel-item >
@@ -32,15 +34,20 @@
 					</v-carousel>
 				</v-col>
 			</v-row>
-</v-container>
-</div>
+
+			<v-row>
+			</v-row>
+
+
+		</v-container>
+	</div>
 </template>
 
 <script type="text/javascript">
 	export default{
 		layout:"page",
 		data:()=>({
-			
+			dialog: true
 		}),
 		mounted(){
 			let audio = document.getElementsByTagName('audio')

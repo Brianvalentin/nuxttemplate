@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/general/facility", {data:[{}],fetch:[],mutations:void 0});

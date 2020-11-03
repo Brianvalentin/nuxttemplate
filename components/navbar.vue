@@ -134,7 +134,7 @@
 				</template>
 				<v-list>
 					<v-list-item>
-						<v-list-item-title> <v-list-item link to="/data/general#section1">Accommodation</v-list-item></v-list-item-title>
+						<v-list-item-title> <v-list-item link to="/general/accommodation">Accommodation</v-list-item></v-list-item-title>
 					</v-list-item>
 
 					<v-list-item>
@@ -146,7 +146,7 @@
 					</v-list-item>
 
 					<v-list-item>
-						<v-list-item-title> <v-list-item link to="/data/general#section4">Facilities</v-list-item></v-list-item-title>
+						<v-list-item-title> <v-list-item link to="/general/facility">Facilities</v-list-item></v-list-item-title>
 					</v-list-item>
 
 					<v-list-item>
@@ -158,7 +158,7 @@
 					</v-list-item>
 
 					<v-list-item>
-						<v-list-item-title> <v-list-item link to="/data/general#section7">Contact Us</v-list-item></v-list-item-title>
+						<v-list-item-title> <v-list-item link to="/general/contactus">Contact Us</v-list-item></v-list-item-title>
 					</v-list-item>
 
 					<v-list-item>
