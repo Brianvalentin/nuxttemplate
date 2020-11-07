@@ -1,25 +1,33 @@
 <template>
-	<div class="px-5">
-		<h1 class="title-h1 text-center py-3">Facilities for devotees</h1>
-		<v-row>
-
-			<v-col class="mx-auto" cols="12" md="10">	
-					<v-img src="/print/n2.jpeg"></v-img>
+	<div>
+		<v-container>
+			<h1 class="text-h4 mb-6 text-center">Facilities for devotees</h1>
+			<v-row>
+				<v-col class="mx-auto" cols="12" md="10">
+					<strong><h1 class="text-h4 titletext">New Facilities Provided For the Devotees</h1></strong>
+					<p class="text-h6 pt-2 ">1.Place for devotess to sit in parkaras</p>
+					<p class="text-h6  ">2. New Pratiksha Darshana Mandapa (Waiting Hall)</p>
+					<p class="text-h6 ">2. New Pratiksha Darshana Mandapa (Waiting Hall)</p>
 				</v-col>
-		</v-row>
-
-		<v-row>
-
-			<v-col class="mx-auto" cols="12" md="10">	
-					<v-img src="/print/notice.jpeg"></v-img>
-				</v-col>
-		</v-row>
-
+			</v-row>
+		</v-container>
 	</div>
 </template>
 
 <script type="text/javascript">
 	export default{
-		layout:"page"
+		layout: "page",
+		mounted(){
+			let audio = document.getElementsByTagName('audio')
+			audio[0].play()
+		}
 	}
 </script>
+
+<style lang="css" scoped>
+	.titletext{
+		background-color: lightgrey;
+		border-radius: 3px;
+		padding: 10px;
+	}
+</style>

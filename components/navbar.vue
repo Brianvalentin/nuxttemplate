@@ -99,10 +99,10 @@
 							<v-list-item-title><v-list-item link to="/data/news#section3">Blog</v-list-item></v-list-item-title>
 						</v-list-item>
 						<v-list-item>
-							<v-list-item-title><v-list-item link to="/data/news#section4">Past Event</v-list-item></v-list-item-title>
+							<v-list-item-title><v-list-item link to="/events/pastevents">Past Event</v-list-item></v-list-item-title>
 						</v-list-item>
 						<v-list-item>
-							<v-list-item-title><v-list-item link to="/data/news#section5">Future Event</v-list-item></v-list-item-title>
+							<v-list-item-title><v-list-item link to="/events/event">Future Event</v-list-item></v-list-item-title>
 						</v-list-item>
 					</v-list>
 				</v-menu>
@@ -162,7 +162,7 @@
 					</v-list-item>
 
 					<v-list-item>
-						<v-list-item-title> <v-list-item link to="/data/general#section8">Timings</v-list-item></v-list-item-title>
+						<v-list-item-title> <v-list-item link to="/general/timings">Timings</v-list-item></v-list-item-title>
 					</v-list-item>
 				</v-list>
 			</v-menu>

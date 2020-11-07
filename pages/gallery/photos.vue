@@ -55,12 +55,7 @@
 					<v-col  cols="6" md="3">
 						<v-img  @click="openimage('/temple/n1.jpeg')" src="/temple/n1.jpeg" aspect-ratio="1.5"></v-img>
 					</v-col>
-					<v-col  cols="6" md="3">
-						<v-img  @click="openimage('/temple/n2.jpeg')" src="/temple/n2.jpeg" aspect-ratio="1.5"></v-img>
-					</v-col>
-					<v-col  cols="6" md="3">
-						<v-img  @click="openimage('/temple/n3.jpeg')" src="/temple/n3.jpeg" aspect-ratio="1.5"></v-img>
-					</v-col>
+			
 					<v-col  cols="6" md="3">
 						<v-img  @click="openimage('/temple/n4.jpeg')" src="/temple/n4.jpeg" aspect-ratio="1.5"></v-img>
 					</v-col>
@@ -75,39 +70,39 @@
 				<v-row wrap>
 
 					<v-col cols="6" md="3" >
-						<v-img lazy-src src="/data/festival.jpg" aspect-ratio="1.5"></v-img>
+						<v-img  @click="openimage('/data/festival.jpg')"  lazy-src src="/data/festival.jpg" aspect-ratio="1.5"></v-img>
 					</v-col>
 					<v-col cols="6" md="3" >
-						<v-img lazy-src src="/data/pooja.jpg" aspect-ratio="1.5"></v-img>
+						<v-img @click="openimage('/data/pooja.jpg')"  lazy-src src="/data/pooja.jpg" aspect-ratio="1.5"></v-img>
 					</v-col>
 					<v-col cols="6" md="3" >
-						<v-img lazy-src src="/data/festival2.jpg" aspect-ratio="1.5"></v-img>
+						<v-img @click="openimage('/data/festival2.jpg')"  lazy-src src="/data/festival2.jpg" aspect-ratio="1.5"></v-img>
 					</v-col>
 					<v-col cols="6" md="3" >
-						<v-img lazy-src src="/data/festival3.jpg" aspect-ratio="1.5"></v-img>
+						<v-img @click="openimage('/data/festival3.jpg')"  lazy-src src="/data/festival3.jpg" aspect-ratio="1.5"></v-img>
 					</v-col>
 					<v-col cols="6" md="3" >
-						<v-img lazy-src src="/fsimg/n1.jpeg" aspect-ratio="1.5"></v-img>
+						<v-img @click="openimage('/fsimg/n1.jpeg')"  lazy-src src="/fsimg/n1.jpeg" aspect-ratio="1.5"></v-img>
 					</v-col>
 					<v-col cols="6" md="3" >
-						<v-img lazy-src src="/fsimg/n2.jpeg" aspect-ratio="1.5"></v-img>
+						<v-img @click="openimage('/fsimg/n2.jpeg')"  lazy-src src="/fsimg/n2.jpeg" aspect-ratio="1.5"></v-img>
 					</v-col>
 					<v-col cols="6" md="3" >
-						<v-img lazy-src src="/fsimg/n3.jpeg" aspect-ratio="1.5"></v-img>
+						<v-img @click="openimage('/fsimg/n3.jpeg')"  lazy-src src="/fsimg/n3.jpeg" aspect-ratio="1.5"></v-img>
 					</v-col>
 					<v-col cols="6" md="3" >
-						<v-img lazy-src src="/fsimg/n4.jpeg" aspect-ratio="1.5"></v-img>
+						<v-img  @click="openimage('/fsimg/n4.jpeg')" lazy-src src="/fsimg/n4.jpeg" aspect-ratio="1.5"></v-img>
 					</v-col>
 					<v-col cols="6" md="3" >
-						<v-img lazy-src src="/fsimg/n5.jpeg" aspect-ratio="1.5"></v-img>
+						<v-img  @click="openimage('/fsimg/n5.jpeg')" lazy-src src="/fsimg/n5.jpeg" aspect-ratio="1.5"></v-img>
 					</v-col>
 					<v-col cols="6" md="3" >
-						<v-img lazy-src src="/fsimg/n6.jpeg" aspect-ratio="1.5"></v-img>
+						<v-img @click="openimage('/fsimg/n6.jpeg')"  lazy-src src="/fsimg/n6.jpeg" aspect-ratio="1.5"></v-img>
 					</v-col>
 					<v-col cols="6" md="3" >
-						<v-img lazy-src src="/fsimg/n7.jpeg" aspect-ratio="1.5"></v-img>
+						<v-img @click="openimage('/fsimg/n7.jpeg')" lazy-src src="/fsimg/n7.jpeg" aspect-ratio="1.5"></v-img>
 					</v-col><v-col cols="6" md="3" >
-						<v-img lazy-src src="/fsimg/n8.jpeg" aspect-ratio="1.5"></v-img>
+						<v-img  @click="openimage('/fsimg/n8.jpeg')" lazy-src src="/fsimg/n8.jpeg" aspect-ratio="1.5"></v-img>
 					</v-col>
 				</v-row>
 			</v-container>
@@ -117,27 +112,28 @@
 				<v-row wrap>
 
 					<v-col cols="6" md="3">
-						<v-img lazy-src src="/fsimg/n7.jpeg"  aspect-ratio="1.5" ></v-img>
+						<v-img @click="openimage('/fsimg/n7.jpeg')"lazy-src src="/fsimg/n7.jpeg"  aspect-ratio="1.5" ></v-img>
 					</v-col>
 
 					<v-col cols="6" md="3">
-						<v-img lazy-src src="/data/goddes.jpg" aspect-ratio="1.5" ></v-img>
+						<v-img@click="openimage('/data/goddes.jpg')" lazy-src src="/data/goddes.jpg" aspect-ratio="1.5" ></v-img>
 					</v-col>
 
 					<v-col cols="6" md="3">
-						<v-img lazy-src src="/data/kamakshi.jpg" aspect-ratio="1.5" ></v-img>
+						<v-img @click="openimage('/data/kamakshi.jpg')"lazy-src src="/data/kamakshi.jpg" aspect-ratio="1.5" ></v-img>
 					</v-col>
 
 					<v-col cols="6" md="3">
-						<v-img  lazy-src src="/data/goddes1.jpg" aspect-ratio="1.5"></v-img>
+						<v-img @click="openimage('/data/goddes1.jpg')" lazy-src src="/data/goddes1.jpg" aspect-ratio="1.5"></v-img>
 					</v-col>
 				</v-row>
 			</v-container>
 		</div>
 
 		<v-dialog v-model="dialog" max-width="800">
-			<v-card class="pa-1" >
-				<v-img v-if="imageurl" :src="imageurl"></v-img>
+			<v-card class="pa-3" >
+				<v-img contain aspect-ratio="1.5" v-if="imageurl" :src="imageurl"></v-img>
+
 				<v-card-actions>
 					<v-spacer></v-spacer>
 				<v-btn color="black darken-1" text @click="closeimage()">

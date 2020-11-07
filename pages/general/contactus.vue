@@ -39,7 +39,7 @@
 					<v-img src="/contactus/2.jpeg">
 					</v-img>
 					<v-card-text class="text--primary">
-						<h1 class="text-h5">Neelakkal Gopi sastri </h1>
+						<h1 class="text-h5">Neelakkal R. Gopi sastri </h1>
 					</v-card-text>
 					<v-card-actions>
 						<v-btn color="green" text >
@@ -57,10 +57,10 @@
 			
 			<v-col class="mx-auto px-6" cols="10" md="4">
 				<v-card>
-					<v-img src="/contactus/3.jpeg">
+					<v-img src="/contactus/1n.jpeg">
 					</v-img>
 					<v-card-text class="text--primary">
-						<h1 class="text-h5">Neelakkal Karthik sastri</h1>
+						<h1 class="text-h5">Neelakkal R. Karthik sastri</h1>
 
 					</v-card-text>
 					<v-card-actions>
@@ -76,7 +76,7 @@
 
 			<v-col class="mx-auto px-6 " cols="10" md="4">
 				<v-card>
-					<v-img src="/contactus/4.jpeg">
+					<v-img src="/contactus/2n.jpeg">
 					</v-img>
 					<v-card-text class="text--primary">
 						<h1 class="text-h5">Neelakkal K.Sankaranand sastri </h1>

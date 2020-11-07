@@ -22,7 +22,7 @@
 							4. Respect ancient customs and usages while at Kamakshi Temple.
 						</v-list-item>
 						<v-list-item>
-							6. Follow the procedures of the temple and wait for your turn for the darshan of the Lord.
+							5. Follow the procedures of the temple and wait for your turn for the darshan of the Lord.
 						</v-list-item>
 					</v-list>
 
@@ -48,7 +48,7 @@
 							6. Don't Commit any act of violence or harshness in the temple premises.
 						</v-list-item>
 						<v-list-item>
-							6. Carrying of weapons & ammunition to Temple is prohibited and pilgrims in possession of licensed weapons / ammunition should declare the same at  check point and submit all the concerned documents and failure to do so will invite legal action.
+							7. Carrying of weapons & ammunition to Temple is prohibited and pilgrims in possession of licensed weapons / ammunition should declare the same at  check point and submit all the concerned documents and failure to do so will invite legal action.
 						</v-list-item>
 					</v-list>
 				</v-col>

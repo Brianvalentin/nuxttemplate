@@ -26,18 +26,18 @@
 				contents:[
 				{
 					"date":"Bilakasam",
-					"title":"Upcomming",
+					"title":"upcoming",
 					"content":"Kamakshi devi is said to have come to Kanchipuram Temple though this Bilakasam on Poora Nakshatram dayis located near Goddess Kamakshi..",
-					"location":"about/events/Bilakasam"
+					"location":"/events/event"
 				},
 				{
-					"date":"Saraswathi pooja",
+					"date":"Will be Updated",
 					"title":"25 October",
 					"content":"Vasant Panchami is the festival dedicated to goddess Saraswati who is their goddess of knowledge, language, music and all arts.",
 					"location":"/about/futureevents#section2"
 				},
 				{
-					"date":"Vijayadashami",
+					"date":"Will be Updated",
 					"title":" 26 October",
 					"content":"Vijayadashami also known as Dussehra, Dasara or Dashain is a major Hindu festival celebrated at the end of Navaratri every year.",
 					"location":"/about/futureevents#section3"

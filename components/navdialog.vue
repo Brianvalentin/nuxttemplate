@@ -105,10 +105,10 @@
     <v-list-item-title><v-list-item  @click="dialog = !dialog"link to="/data/news#section3">Blog</v-list-item></v-list-item-title>
   </v-list-item>
   <v-list-item>
-    <v-list-item-title><v-list-item  @click="dialog = !dialog"link to="/data/news#section4">Past Event</v-list-item></v-list-item-title>
+    <v-list-item-title><v-list-item  @click="dialog = !dialog"link to="/events/pastevents">Past Event</v-list-item></v-list-item-title>
   </v-list-item>
   <v-list-item>
-    <v-list-item-title><v-list-item  @click="dialog = !dialog"link to="/data/news#section5">Future Event</v-list-item></v-list-item-title>
+    <v-list-item-title><v-list-item  @click="dialog = !dialog"link to="/events/event">Future Event</v-list-item></v-list-item-title>
   </v-list-item>
 </v-list>
 <v-divider></v-divider>
@@ -161,7 +161,7 @@
           </v-list-item>
 
           <v-list-item>
-            <v-list-item-title> <v-list-item link @click="dialog = !dialog" to="/data/general#section8">Timings</v-list-item></v-list-item-title>
+            <v-list-item-title> <v-list-item link @click="dialog = !dialog" to="/general/timings">Timings</v-list-item></v-list-item-title>
           </v-list-item>
 </v-card>
 </v-dialog>
