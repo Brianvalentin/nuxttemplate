@@ -44,7 +44,8 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
-    { src: "@/plugins/aos", ssr: false }
+    { src: "@/plugins/aos", ssr: false },
+    { src: "@/plugins/pdf.js", mode: 'client' }
   ],
   /*
   ** Auto import components
@@ -98,7 +99,7 @@ export default {
   build: {
     extend (config, ctx) {
       config.module.rules.push({
-        test: /\.(ogg|mp3|wav|mpe?g)$/i,
+        test: /\.(ogg|mp3|wav|pdf|mpe?g)$/i,
         loader: 'file-loader',
         options: {
           audio: '@/assets/bell.mp3'
